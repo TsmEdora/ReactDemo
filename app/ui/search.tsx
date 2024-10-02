@@ -21,7 +21,7 @@ export default function Search() {
                 params.delete('query');
             }
             replace(`${pathname}?${params.toString()}`);
-    }, 300);
+    });
     
 
     return (
